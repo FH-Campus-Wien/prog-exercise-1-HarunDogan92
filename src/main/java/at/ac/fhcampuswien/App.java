@@ -50,12 +50,13 @@ public class App {
     //todo Task 5
     public void swapTwoNumbers(){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Before Swap:\r\nx: ");
+        System.out.print("Before Swap:" + System.lineSeparator() + "x: ");
         int input1 = scanner.nextInt();
         System.out.print("y: ");
         int input2 = scanner.nextInt();
 
-        System.out.println("After Swap:\r\nx: " + input2 + "\r\ny: " + input1);
+        System.out.println("After Swap:" + System.lineSeparator() + "x: "
+                + input2 + System.lineSeparator() + "y: " + input1);
     }
 
     //todo Task 6
